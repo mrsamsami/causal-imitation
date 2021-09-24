@@ -65,7 +65,7 @@
 
   <p>
   Imitation learning is a powerful approach to leverage data from demonstrations of expert driver to learn autonomous driving policy. In particular, behavior cloning reduces policy learning to supervised learning by training a function that maps states to expert actions. However, driving policies trained via behavior cloning exhibit undesirable behaviors since they neglect the causal structure of expert demonstrations. 
-  In this paper, we study two problems in autonomous driving policies trained with imitation learning: inertia and collision problems. We propose <b>Causal Imitative Model (CIM)</b>, a method that explicitly discovers the causal model and utilizes it in training the policy. 
+  In this paper, we study two problems in autonomous driving policies trained with imitation learning: inertia and collision problems. We propose <strong>Causal Imitative Model (CIM)</strong>, a method that explicitly discovers the causal model and utilizes it in training the policy. 
   Specifically, CIM disentangles the input to a set of latent variables, selects the causal variables, and determines the next position by leveraging the selected variables. 
   Our experiments show that our method outperforms previous work in terms of inertia and collision rates. Moreover, thanks to exploiting the causal structure, CIM shrinks the input dimension to only two, hence, can adapt to new environments in a few-shot setting.
 	</p>
