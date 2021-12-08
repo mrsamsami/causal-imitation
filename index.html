@@ -54,9 +54,10 @@
 		<br>
 		<nobr>(1) Sharif University of Technology</nobr>    <nobr>(2) Ecole Polytechnique Fédérale de Lausanne </nobr><br>
 		<br>
-		
+		<a href = "https://arxiv.org/abs/2112.03908">[Preprint]</a>
 		<br>
-		<img style="vertical-align:middle" src="CIM/Latent.jpg" width="100%" height="inherit">		
+		<br>
+		<img style="vertical-align:middle" src="CIM/Capture.png" width="100%" height="inherit">		
 		</center>
 
 
@@ -64,11 +65,13 @@
 	
 
   <p>
-  Imitation learning is a powerful approach to leverage data from demonstrations of expert driver to learn autonomous driving policy. In particular, behavior cloning reduces policy learning to supervised learning by training a function that maps states to expert actions. However, driving policies trained via behavior cloning exhibit undesirable behaviors since they neglect the causal structure of expert demonstrations. 
-  In this paper, we study two problems in autonomous driving policies trained with imitation learning: inertia and collision problems. We propose <strong>Causal Imitative Model (CIM)</strong>, a method that explicitly discovers the causal model and utilizes it in training the policy. 
-  Specifically, CIM disentangles the input to a set of latent variables, selects the causal variables, and determines the next position by leveraging the selected variables. 
-  Our experiments show that our method outperforms previous work in terms of inertia and collision rates. Moreover, thanks to exploiting the causal structure, CIM shrinks the input dimension to only two, hence, can adapt to new environments in a few-shot setting.
-	</p>
+  Imitation learning is a powerful approach for learning autonomous driving policy by leveraging data from expert driver demonstrations.
+	  However, driving policies trained via imitation learning that neglect the causal structure of expert demonstrations yield two undesirable behaviors: inertia and collision.
+	  In this paper, we propose Causal Imitative Model (CIM) to address inertia and collision problems.
+	  CIM explicitly discovers the causal model and utilizes it to train the policy. 
+	  Specifically, CIM disentangles the input to a set of latent variables, selects the causal variables, and determines the next position by leveraging the selected variables.
+	  Our experiments show that our method outperforms previous work in terms of inertia and collision rates. 
+	  Moreover, thanks to exploiting the causal structure, CIM shrinks the input dimension to only two, hence, can adapt to new environments in a few-shot setting.</p>
 
 
 	
