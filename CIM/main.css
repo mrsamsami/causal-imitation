@@ -88,7 +88,15 @@ div.video-responsive iframe{
 
 pre {
     background-color: #d3ded8;
-    border-radius: 3px;
-    white-space: pre-wrap;
-    border: 1px solid gray;
+    overflow-x: auto;
+    padding: 1.25em 1.5em;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+pre code {
+    background-color: transparent;
+    color: currentColor;
+    font-size: 1em;
+    padding: 0;
 }
