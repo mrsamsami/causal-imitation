@@ -93,6 +93,8 @@ pre code {
     color: currentColor;
     font-size: 1em;
     padding: 0;
+    border-radius: 3px;
+    border: 1px solid #848f8e;
 }
 
 .title {
