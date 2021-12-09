@@ -85,3 +85,10 @@ div.video-responsive iframe{
 	max-height: 315px;
     position:absolute;
 }
+
+pre {
+    background-color: #d3ded8;
+    border-radius: 3px;
+    white-space: pre-wrap;
+    border: 1px solid gray;
+}
