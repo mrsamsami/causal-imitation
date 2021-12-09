@@ -41,11 +41,6 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: 1em;
-    padding: 3rem 1.5rem 6rem;
-}
-
-footer div {
-    font-family: 'Google Sans', sans-serif;
 }
 
 ul.posts { 
