@@ -41,12 +41,6 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-pre {
-	background-color: #EBECE4;
-	border-radius: 3px;
-	white-space: pre-wrap;
-	border: 1px solid gray;
-}
 
 ul.posts { 
     margin: 20px auto 40px; 
@@ -99,4 +93,8 @@ pre code {
     color: currentColor;
     font-size: 1em;
     padding: 0;
+}
+
+.title {
+    margin-bottom: 1.5rem;
 }
